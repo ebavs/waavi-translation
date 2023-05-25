@@ -1,9 +1,9 @@
 # Better localization management for Laravel
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/waavi/translation.svg?style=flat-square)](https://packagist.org/packages/waavi/translation)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/ebavs/waavi-translation.svg?style=flat-square)](https://packagist.org/packages/ebavs/waavi-translation)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/Waavi/translation/master.svg?style=flat-square)](https://travis-ci.org/Waavi/translation)
-[![Total Downloads](https://img.shields.io/packagist/dt/waavi/translation.svg?style=flat-square)](https://packagist.org/packages/waavi/translation)
+[![Total Downloads](https://img.shields.io/packagist/dt/waavi/translation.svg?style=flat-square)](https://packagist.org/packages/ebavs/waavi-translation)
 
 ## Introduction
 
@@ -42,6 +42,7 @@ WAAVI is a web development studio based in Madrid, Spain. You can learn more abo
  5.6.x    | 2.3.x and higher
  6.x\|7.x     | 2.4.x and higher
  8.x.x    | 2.5.x and higher
+ 9.x    | 2.6.x and higher
 ## Features overview
 
  - Allow dynamic changes to the site's text and translations.
@@ -55,12 +56,12 @@ WAAVI is a web development studio based in Madrid, Spain. You can learn more abo
 Require through composer
 
 
-	composer require ebavs/waavi-translation 2.5.x
+	composer require ebavs/waavi-translation 2.6.x
 
 Or manually edit your composer.json file:
 
 	"require": {
-		"ebavs/waavi-translation": "2.5.x"
+		"ebavs/waavi-translation": "2.6.x"
 	}
 
 Once installed, in your project's config/app.php file replace the following entry from the providers array:
